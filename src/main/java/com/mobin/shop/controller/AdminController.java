@@ -66,7 +66,7 @@ public class AdminController {
             return "404";
     }
 
-    // products
+    // products controller
 
     @GetMapping("/admin/products")
     public String Products(Model model){
